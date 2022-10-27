@@ -2,6 +2,25 @@
 
 
 /* you may add to or change the body rule */
+@media only screen and (min-width: 600px) {
+}
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+}
+#stagbeetle {
+    background-color:rgb(166, 205, 239);
+    color:#000;
+}
+#ladybug {
+    background-color:#FFD5AE;
+    color: #000;
+}
+#bluemintbeetle {
+    background-color: #FFBD82;
+    color: #000;
+}
 body {
     font-family: sans-serif;
     color: #fff;
@@ -10,7 +29,40 @@ body {
 img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
-
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    color: #000
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
+footer > p{
+    text-align: center;
+    align-content: center;
+    color: #fff;
+}
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
     B26219 cinnamon
